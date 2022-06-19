@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+}
+header {
+    background: #efefef;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+h1 { 
+    font-size: 150%;
+    color: purple;
+    margin-bottom: .5em;
+}
+div {
+    margin-bottom: 1em;
+}
+input {
+    width: 22em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    padding: 20px;
+    border: 3px solid purple;
+    width: 760px;
+}
+
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+#tasks {
+    margin-top: 0;
+    float: right;
+}
